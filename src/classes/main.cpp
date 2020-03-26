@@ -1,7 +1,11 @@
 #include "etudiant.h"
+#include <iostream>
+using namespace std;
+
+
 
 int main()
 {
-	//code
+	//debug();
 	return 0;
 }
