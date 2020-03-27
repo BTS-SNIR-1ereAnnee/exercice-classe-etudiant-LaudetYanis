@@ -57,13 +57,13 @@ float etudiant::calculerMoyenne(float moyenne)
 {
 	moyenne = m_note1 + m_note2*2;
 	moyenne /=2;
-	cout<< moyenne;
 	return moyenne;
 }
 
 void etudiant::afficher()
 {
-
+ 	cout << m_nomEtudiant << " : " << m_note1 << "/20, " <<m_note2<< "/10\n";
+ 	cout << "Moyenne :" << calculerMoyenne(0); 
 }
 
 void etudiant::debug()
