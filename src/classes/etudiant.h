@@ -13,6 +13,7 @@ public:
 
     ~etudiant();
     //Destructeur par defaut
+
     int getNote1() const;
 
     void setNote1(int val);
@@ -23,12 +24,12 @@ public:
 
     int getNomEtudiant() const;
 
-    void setNomEtudiant(int val);
-
-   	float calculerMoyenne(float moyenne); 
+    void setNomEtudiant(string val);
+    //getter et setter
+   	float calculerMoyenne(int note1, int note2); 
    	//Permet de calculer la moyenne de l'etudiant
 
-   	void afficher();
+   	void afficher(string nom, int note1, int note2);
    	//affichage de sortit
    	void debug();
 
