@@ -6,6 +6,7 @@ using namespace std;
 
 int main()
 {
-	//debug();
+	etudiant Yanis;
+	Yanis.debug();
 	return 0;
 }
