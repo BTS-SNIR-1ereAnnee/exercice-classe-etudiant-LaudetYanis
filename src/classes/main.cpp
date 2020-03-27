@@ -7,6 +7,6 @@ using namespace std;
 int main()
 {
 	etudiant Yanis;
-	Yanis.debug();
+	Yanis.calculerMoyenne(0);
 	return 0;
 }
